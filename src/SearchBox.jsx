@@ -11,6 +11,7 @@ export default function SearchBox({ updateInfo }) {
     const GEO_API_URL = import.meta.env.VITE_GEO_API_URL;
     const WEATHER_API_URL = import.meta.env.VITE_WEATHER_API_URL;
     const API_KEY = import.meta.env.VITE_API_KEY;
+    console.log(GEO_API_URL, WEATHER_API_URL,API_KEY);
 
     const getWeatherInfo = async () => {
         try {
